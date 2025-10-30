@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Me</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+<div class="navbar">
+    <div class="main">
+      <h1>Asratie'sportfolio </h1>
+      <div class="menu-icon" onclick="toggleMenu()">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+ <section id="contact">
+  <h2>Contact Me</h2>
+  <p>Feel free to reach out through any of the platforms below or send me a message directly:</p>
+<ul>
+    <li>Email: <a href="mailto:yiresuasratie@gmail.com">yiresuasratie@gmail.com</a></li>
+    <li>Phone: <a href="tel:+251965011420">+251 965011420</a></li>
+    <ul id="navLinks">
+  ...
+</ul>
+
+  </ul>
+<div class="contact-icons">
+    <a href="https://github.com/asratie" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="https#" title ="coming soon"><i class="fab fa-instagram"></i></a>
+    <a href="https#" title="coming soon"><i class="fab fa-facebook"></i></a>
+</div>
+<form action="mailto:yiresuasratie@gmail.com" method="POST" enctype="text/plain" class="contact-form">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <input type="text" name="subject" placeholder="Subject" />
+    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+<footer class="footer">
+  <div class="footer-content">
+    <p>&copy; 2025 Asratie. All rights reserved.</p>
+    <p>Designed using HTML, CSS, and JavaScript.</p>
+  </div>
+</footer>
+<script>
+    function toggleMenu() {
+      document.getElementById("navLinks").classList.toggle("show");
+    }
+  </script>
+</body>
+</html
